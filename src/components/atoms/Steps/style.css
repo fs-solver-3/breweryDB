@@ -1,0 +1,33 @@
+.bd-steps {
+  display: flex;
+}
+
+.bd-steps > div {
+  background-color: #fff;
+  border: solid 1px #e9f1f8;
+  border-radius: 50%;
+  height: 26px;
+  margin: 0;
+  width: 26px;
+}
+
+.step-line {
+  height: 1px;
+  width: 40px;
+  margin: 14px 12px;
+  background-color: #e9f1f8;
+}
+
+.bd-steps .active-step {
+  background-color: #003b71;
+}
+
+.bd-steps--justify-center {
+  justify-content: center;
+}
+
+.highlight-step {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border: solid 1px #e9f1f8;
+  background-color: #e9f1f8 !important;
+}

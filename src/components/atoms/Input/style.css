@@ -1,0 +1,73 @@
+.bdb-input label {
+  color: var(--BrewLogixBlue);
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.29;
+  margin-bottom: 5px;
+}
+
+.bdb-input {
+  position: relative;
+}
+
+.bdb-input input::placeholder {
+  color: rgba(0, 59, 113, 0.5);
+}
+
+.bdb-input input {
+  background-color: #e9f1f8;
+  border: 0;
+  border-radius: 3px;
+  color: var(--BrewLogixBlue);
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  outline: none;
+  padding: 0 11px;
+  width: -webkit-fill-available;
+}
+
+/* rounded */
+.bdb-input--rounded input {
+  border: solid 1px var(--BrewLogixBlue);
+  border-radius: 6px;
+}
+
+/* size */
+.bdb-input--small input {
+  font-weight: 500;
+  height: 26px;
+  padding: 0 8px;
+}
+
+.inp-field-cont {
+  position: relative;
+  display: flex;
+}
+
+.input-right-label {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border-left: 1px solid #79add5;
+  color: #003b71;
+  font-size: 14px;
+}
+
+.padding-right-input {
+  padding-right: 115px !important;
+}
+
+label.input-field-label.disabled {
+  color: gray;
+}
+
+input[disabled] {
+  color: gray;
+}

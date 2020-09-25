@@ -1,0 +1,105 @@
+.text-darkblue {
+  color: #003b71;
+}
+
+.font-900 {
+  font-weight: 900;
+}
+
+.drawer-header {
+  height: 78px;
+  background: #e8f0f7;
+}
+
+.drawer-header > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #003a70;
+  height: 100%;
+}
+
+.location-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px;
+}
+
+.Assign-member {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.Assign-member > .MuiButton-root.brewery-button--size-xsmall {
+  font-size: 15px !important;
+  padding: 25px !important;
+}
+.location-modal-header {
+  padding: 10px;
+  color: #0a406b;
+}
+
+.location-modal-centent {
+  padding: 10px 0;
+  color: #053a70;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.add-location {
+  display: flex;
+  padding: 10px 0;
+}
+
+.add-location-icon {
+  color: #003b71;
+  margin-right: 20px;
+}
+
+.location-cancle-button {
+  background: #79add5;
+  padding: 10px;
+  border: 0;
+  color: #fff;
+  borderradius: 3px;
+}
+
+.location-continue-button {
+  background: #003b71;
+  padding: 10px;
+  border: 0;
+  color: #fff;
+  borderradius: 3px;
+}
+
+.Champion-for {
+  width: 179px;
+  height: 29px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.Brewery-Location {
+  width: 174px;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.85;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  padding: 10px;
+}

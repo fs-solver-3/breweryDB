@@ -1,0 +1,50 @@
+.app-modal-container {
+  padding: 0 10px;
+  width: 596px;
+  min-height: 537px;
+  border-radius: 6px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin: 12% auto;
+  outline: none;
+}
+
+.app-modal-container .header {
+  border-bottom: 1px solid rgba(0, 59, 113, 0.84);
+  padding: 14px;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 14px;
+  color: #0a406b;
+  text-align: center;
+}
+
+.app-modal-container .footer {
+  border-top: 1px solid rgba(0, 59, 113, 0.84);
+  margin: 14px;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.app-modal-container .footer .cancel-button {
+  width: 76px;
+  height: 25px;
+  border-radius: 3px;
+  background-color: #e9f1f8;
+  border: none;
+  color: #003b71;
+  font-weight: bold;
+}
+
+.app-modal-container .footer .finish-button {
+  width: 76px;
+  height: 25px;
+  border-radius: 3px;
+  background-color: #003b71;
+  border: none;
+  font-weight: bold;
+  color: #ffffff;
+  margin-left: 26px;
+}

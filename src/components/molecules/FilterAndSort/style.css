@@ -1,0 +1,15 @@
+.filter-sort,
+.filter-sort .flex {
+  margin-left: 26px;
+}
+
+.filter-sort h6 {
+  color: var(--BrewLogixBlue);
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.22;
+}
+
+.filter-sort .brewery-select-wrap {
+  margin-right: 20px;
+}

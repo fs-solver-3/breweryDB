@@ -1,0 +1,36 @@
+.bdb-switch .MuiSwitch-root {
+  height: 43px;
+  width: 65px;
+}
+
+.bdb-switch .MuiSwitch-switchBase {
+  left: 8px;
+  top: 6px;
+}
+
+.bdb-switch .MuiSwitch-switchBase.Mui-checked {
+  transform: translateX(17px);
+}
+
+.bdb-switch .MuiSwitch-thumb {
+  background-color: var(--seafoam-blue);
+  box-shadow: none;
+  height: 15px;
+  width: 15px;
+}
+
+.bdb-switch .MuiSwitch-track {
+  background-color: #fff;
+  border: solid 1px var(--seafoam-blue);
+  border-radius: 10px;
+}
+
+/* checked */
+.bdb-switch .MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track {
+  background-color: #e8f0f7;
+  border: solid 1px var(--BrewLogixBlue);
+}
+
+.bdb-switch .Mui-checked .MuiSwitch-thumb {
+  background-color: var(--BrewLogixBlue);
+}

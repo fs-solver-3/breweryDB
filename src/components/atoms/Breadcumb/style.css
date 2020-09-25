@@ -1,0 +1,27 @@
+.brewery-breadcumb,
+.brewery-breadcumb a {
+  align-items: center;
+  display: flex;
+}
+
+.brewery-breadcumb {
+  margin: 0 25px 25px 0;
+}
+
+.brewery-breadcumb a {
+  color: var(--BrewLogixBlue);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.21;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.brewery-breadcumb a:last-child {
+  color: #7494b0;
+}
+
+.brewery-breadcumb a img {
+  margin-right: 10px;
+}

@@ -1,0 +1,34 @@
+.bdb-glassware {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bdb-glassware > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 5px 11px;
+  padding: 6px 0;
+  text-align: center;
+  width: 100px;
+}
+
+.bdb-glassware > div p {
+  color: var(--BrewLogixBlue);
+  font-size: 11px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.bdb-glassware > div.active {
+  background-color: #e9f1f8;
+  border-radius: 10px;
+  -webkit-box-shadow:inset 0px 0px 0px 3px var(--BrewLogixBlue);
+  -moz-box-shadow:inset 0px 0px 0px 3px var(--BrewLogixBlue);
+  box-shadow:inset 0px 0px 0px 3px var(--BrewLogixBlue);
+}
+
+.glassware-item {
+  cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.bdb-content-template--header {
+  background-color: #fff;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  padding: 0 20px;
+}
+
+.bdb-content-template--header h1 {
+  color: var(--BrewLogixBlue);
+  font-size: 36px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.bdb-content-template--header > div {
+  align-items: center;
+  display: flex;
+  height: 75px;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.bdb-content-template--container {
+  padding: 40px;
+}

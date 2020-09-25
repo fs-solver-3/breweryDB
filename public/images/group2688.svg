@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="165" height="165" viewBox="0 0 165 165">
+    <defs>
+        <filter id="Ellipse_518" width="165" height="165" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="Group_2688" data-name="Group 2688" transform="translate(9.386 1)">
+        <g filter="url(#Ellipse_518)" transform="translate(-9.39 -1)">
+            <g id="Ellipse_518-2" fill="#003b71" stroke="#003b71" data-name="Ellipse 518" transform="translate(9 6)">
+                <circle cx="73.5" cy="73.5" r="73.5" stroke="none"/>
+                <circle cx="73.5" cy="73.5" r="73" fill="none"/>
+            </g>
+        </g>
+        <g id="Group_2687" data-name="Group 2687" transform="translate(53.885 22.528)">
+            <g id="Group_948" data-name="Group 948">
+                <g id="Group_945" data-name="Group 945">
+                    <g id="Group_944" data-name="Group 944">
+                        <path id="Path_515" d="M-1905.981 1959.446h-53.607a.288.288 0 0 0-.287.287v31.637a60.5 60.5 0 0 0 3.911 21.438l.92 2.434a56.707 56.707 0 0 1 3.672 20.114v22.281a.014.014 0 0 1 0 .011l-3.1 3.259a6.866 6.866 0 0 0-1.883 5.218 7 7 0 0 0 7.041 6.408h33.127a7.088 7.088 0 0 0 7.1-6.888 6.842 6.842 0 0 0-1.895-4.738l-3.1-3.259a.015.015 0 0 1 0-.011v-22.281a56.717 56.717 0 0 1 3.672-20.114l.92-2.429a60.694 60.694 0 0 0 3.917-21.439v-31.53a.4.4 0 0 0-.408-.398zm-50.143 3.77a.017.017 0 0 1 .016-.016h46.754a.017.017 0 0 1 .016.016v10.725a.017.017 0 0 1-.016.016h-46.754a.017.017 0 0 1-.016-.016zm42.421 100.277a3.133 3.133 0 0 1 .861 2.249 3.22 3.22 0 0 1-3.263 3.035h-33.386a3.132 3.132 0 0 1-3.13-3.126 3.107 3.107 0 0 1 .865-2.158l3.063-3.22a.014.014 0 0 1 .012 0h31.9a.014.014 0 0 1 .012 0zm4.364-72.124a56.7 56.7 0 0 1-3.672 20.114l-.919 2.434a60.392 60.392 0 0 0-3.916 21.438v21.145a.016.016 0 0 1-.016.015h-29.738a.016.016 0 0 1-.016-.015v-21.148a60.4 60.4 0 0 0-3.916-21.438l-.92-2.434a56.8 56.8 0 0 1-3.672-20.114v-13.643a.017.017 0 0 1 .016-.015h46.754a.017.017 0 0 1 .016.015z" class="cls-2" data-name="Path 515" transform="translate(1959.874 -1959.446)"/>
+                    </g>
+                </g>
+                <g id="Group_946" data-name="Group 946" transform="translate(9.484 21.717)">
+                    <path id="Path_516" d="M-1938.956 2007.6a2.292 2.292 0 0 1-2.291-2.292v-.914a2.291 2.291 0 0 1 2.291-2.292 2.291 2.291 0 0 1 2.291 2.292v.914a2.291 2.291 0 0 1-2.291 2.292z" class="cls-2" data-name="Path 516" transform="translate(1941.248 -2002.099)"/>
+                </g>
+                <g id="Group_947" data-name="Group 947" transform="translate(9.484 27.623)">
+                    <path id="Path_517" d="M-1938.956 2025.039a2.292 2.292 0 0 1-2.291-2.292v-6.757a2.291 2.291 0 0 1 2.291-2.291 2.291 2.291 0 0 1 2.291 2.291v6.757a2.291 2.291 0 0 1-2.291 2.292z" class="cls-2" data-name="Path 517" transform="translate(1941.248 -2013.699)"/>
+                </g>
+            </g>
+        </g>
+        <text id="_" fill="#fff" data-name="+" font-family="Montserrat-Medium, Montserrat" font-size="69px" font-weight="500" transform="translate(29.614 67)">
+            <tspan x="-20.079" y="0">+</tspan>
+        </text>
+    </g>
+</svg>

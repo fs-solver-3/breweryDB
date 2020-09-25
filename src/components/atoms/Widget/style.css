@@ -1,0 +1,43 @@
+.bdb-widget {
+  background-color: #fff;
+  border-radius: 1.5px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  font-family: Montserrat;
+}
+
+.bdb-widget--container {
+  padding: 25px 0;
+  margin: 0 30px;
+}
+
+.bdb-widget--center-box {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bdb-widget--header {
+  align-items: center;
+  background-color: var(--BrewLogixBlue);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  display: flex;
+  min-height: 84px;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.bdb-widget--header h1 {
+  color: #fff;
+  font-size: 36px;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #fff;
+}
+
+.rotate-arrow {
+  transform: rotate(180deg);
+}

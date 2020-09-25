@@ -1,0 +1,117 @@
+.user-profile .bdb-upload-image--board {
+  width: 123px;
+  height: 123px;
+  border: solid 1px #0a406b;
+  background: #003b71 url('./image-upload-icon.png') no-repeat center center;
+  border-radius: 50%;
+}
+
+.locations-list {
+  height: 127px;
+  border-radius: 3px;
+  background-color: #e9f1f8;
+  overflow-y: auto;
+  margin-right: 50px;
+  padding: 8px 14px;
+}
+
+.locations-list-container {
+  width: 364px;
+  height: 114px;
+  border-radius: 3px;
+  background-color: #e9f1f8;
+  margin-left: 8px;
+  margin-top: 5px;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  color: #003b71;
+}
+
+.locations-list .location-item {
+  color: #003b71;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.flavours-container .flavour-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flavor-items-container {
+  overflow: auto;
+  height: 43vh;
+}
+
+.flavour-items div {
+  margin: 0;
+  text-align: center;
+}
+
+.flavour-items .flavor-item {
+  padding: 12px;
+}
+
+.flavour-items .highlight-flavor {
+  /*border: 3px solid #003b71;*/
+  -webkit-box-shadow:inset 0px 0px 0px 3px #003b71;
+  -moz-box-shadow:inset 0px 0px 0px 3px #003b71;
+  box-shadow:inset 0px 0px 0px 3px #003b71;
+  border-radius: 10px;
+  background-color: #e9f1f8;
+  padding: 12px;
+}
+
+
+.flavour-items div img {
+  width: 71px;
+  height: 71px;
+}
+
+.flavour-items div p {
+  font-size: 11px;
+  color: #003b71;
+}
+
+.flavour-items div .add-icon {
+  background-color: #003b71;
+  color: #ffffff;
+  font-size: 67px;
+  font-weight: bold;
+  width: 71px;
+  height: 71px;
+  border-radius: 50%;
+  margin: 0 0 5px 0;
+  line-height: 72px;
+}
+
+.search-flavour {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.suggestor-flavor {
+  width: 382px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.search-flavour h4 {
+  font-weight: bold;
+}
+
+.MuiButton-root.brewery-button--size-small {
+  width: 132px;
+  border-radius: 3px;
+}
+
+.flavors-list-menu {
+  display: flex;
+  flex-wrap: wrap;
+}

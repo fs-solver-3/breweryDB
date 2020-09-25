@@ -1,0 +1,132 @@
+.card {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
+  min-height: 769px;
+  overflow: hidden;
+  padding: 18px 3px 18px;
+  position: relative;
+}
+
+.even-card {
+  background-color: #e9f1f8;
+}
+
+.card .brewery-checkbox {
+  /* margin-right: 4px; */
+  margin-top: -8px;
+}
+
+.card--locations p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.card--locations small {
+  color: var(--BrewLogixBlue);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.27;
+}
+
+.card--favorite-brew > div {
+  margin: 0 16px;
+}
+
+.card--favorite-brew p {
+  color: var(--BrewLogixBlue);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.card--preference {
+  display: flex;
+  justify-content: center;
+}
+
+.card--preference .bdb-checkbox {
+  padding: 0;
+}
+
+.card--preference > div {
+  min-width: 60px;
+  text-align: center;
+}
+
+.card--preference .checkbox {
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.card--preference p {
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 1.27;
+}
+
+.card .MuiSlider-rail::before {
+  border-color: transparent transparent #003b71 transparent;
+  border-style: solid;
+  border-width: 0 0 24px 220px;
+  content: '';
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 0;
+}
+
+.card--share {
+  bottom: 17px;
+  cursor: pointer;
+  position: absolute;
+  right: 22px;
+}
+
+.card-edit {
+  height: 20px;
+}
+
+.lower-card-share {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  transform: scaleX(-1);
+}
+
+.lower-card-edit {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.edit-card {
+  height: 20px;
+}
+
+.card--red-star {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 45px;
+}
+
+.card .card--completion {
+  background: #9fe97f;
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+  left: 0;
+  line-height: 1.29;
+  padding: 3px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+.card .card--completion-half {
+  background: #ffd74f;
+}

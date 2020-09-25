@@ -1,0 +1,135 @@
+body {
+  background-color: #eaedef;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  min-width: 1080px;
+  padding: 0;
+  zoom: 95%;
+}
+
+h2,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h4,
+h5 {
+  color: var(--BrewLogixBlue);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.22;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+input,
+input:hover,
+input:active,
+input:focus {
+  outline: none;
+}
+
+:root {
+  --BrewLogixBlue: #003b71;
+  --reddy-brown: #640404;
+  --seafoam-blue: #79add5;
+  --green: #799d4b;
+  --sand: '#e6dc76';
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.16);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--BrewLogixBlue);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--BrewLogixBlue);
+}
+
+/* home Button text */
+.buildButtonText {
+  font-size: large !important;
+}
+/* Locatiopon modal height */
+.modal .content-section-Location {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px;
+  overflow: auto;
+  /* height: 40vh; */
+  overflow: unset;
+  align-items: center;
+}
+.modal .footer {
+  border-top: none !important;
+}
+.modal-container .modal {
+  width: 40vw !important;
+}
+.locationText {
+  color: red;
+  margin-top: 5px;
+}
+.modalImage {
+  height: 70px;
+}
+.modalHeading {
+  line-height: 3;
+  margin-left: 1%;
+}
+.heading {
+  position: relative;
+}
+.locationModalCloseButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: transparent;
+  border: 0;
+  outline: 0px;
+  color: darkgrey;
+  cursor: pointer;
+  font-size: 30px !important;
+}
+.noDrop {
+  cursor: no-drop !important;
+}
+.modalSelect {
+  max-width: 100% !important;
+  justify-content: unset !important;
+}
+
+.activities_container_build {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.activity_item_build {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0% 4%;
+  flex-basis: 16.666667%;
+  max-width: 16.666%;
+}
