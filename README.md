@@ -71,26 +71,3 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Git Practices:
-
-### Getting Started
-
-1. Create your own fork.
-2. Copy the fork git url to clone it in your local machine.
-3. Clone your fork on local machine.
-4. Add upstream in your local
-
-    `git remote add upstream https://github.com/hoboarchitect/BDB.git`
-
-### Working on new task/feature
-
-1. Checkout to a new branch
-    `git checkout -b my_branch upstream/master`
-
-    If you checkout using the above command you always make sure to have updated code in your new branch.
-2. Make changes in code.
-3. Commit your changes and make sure to have meaningful message with your commit.
-4. Push your changes
-    `git push origin my_branch`
-5. Create pull request to main repository's master.
